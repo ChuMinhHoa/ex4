@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        
+</head>
+
+<body>
+    <div class="container">
+        <p class="h1 text-center">Cong hoa xa hoi chu nghia Viet Nam</p>
+        <p class="h3 text-center">Doc lap - Tu do - Hanh Phuc</p>
+        <form action="" name="myForm" onsubmit="validateForm()">
+
+            <div class="form-group">
+                <label for="">Ten cuoc bau cu</label>
+                <input type="text" class="form-control" name="Ten" id="" placeholder="Nhap ten cuoc bau cu">
+            </div>
+
+            <div class="form-group">
+                <label for="">So phieu bau cu</label>
+                <input type="text" class="form-control" name="Sl" id="" placeholder="Nhap so phieu bau cu">
+            </div>
+            
+            <div class="form-group">
+                <label for="">Danh sach ung vien</label>
+                <input type="text" class="form-control" name="candidates" id="" placeholder="Nhap ten ung vien">
+                <div id="CandidateList"></div>
+                <br>
+                <button class="btn btn-primary" type="button" id="bu">+</button>
+            </div>
+
+            <div class="form-group">
+                <label for="">Tinh hop le</label>
+                <input type="text" class="form-control" name="HL" id="" placeholder="Nhap so ung vien toi da duoc chon trong 1 phieu">
+            </div>
+            <input class="btn btn-secondary" type="submit" value="Tien hanh kiem phieu">
+            
+        </form>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="./phieubau.js"></script>
+        <!-- <script src="./Bai1.js"></script> -->
+</body>
+</html>
